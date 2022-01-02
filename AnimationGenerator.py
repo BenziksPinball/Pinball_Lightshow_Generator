@@ -71,6 +71,8 @@ class MainWindow:
         text.write(gametext)
         text.close()
 
+        #testing to see if if pushes stupid shit again.
+
         self.layout_window = tk.Toplevel(self.master)
         self.app = Layout_Window(self.layout_window)
 
